@@ -14,31 +14,30 @@ int main()
 	{
 		int i, j;
 		cin >> i >> j;
-		if (i != j)
+		int size = j - i + 1;
+		int* sample = new int[size];
+		int c = j - 1;
+		for (int b = 0;b < size;b++)
 		{
-			for (int b = i - 1;b <= (i+j)/2 - 1;b++)
-			{
-				int temp;
-				temp = basket[j - 1 - b];
-				basket[j - 1 - b] = basket[b];
-				basket[b] = temp;
-			}
-			for (int c = 0;c < n;c++)
-			{
-				cout << basket[c] << " ";
-			}
-			cout << endl;
+			sample[b] = basket[c];
+			c--;
 		}
-		
+		int e = 0;
+		for (int d = i - 1;d <= j - 1;d++)
+		{
+			basket[d] = sample[e];
+			e++;
+		}
 		/*
-		for (int c = 0;c < n;c++)
+		for (int f = 0;f < n;f++)
 		{
-			cout << basket[c] << " ";
+			cout << basket[f] << " ";
 		}
+		cout << endl;
 		*/
 	}
 
-	cout << endl;
+	//cout << endl;
 	for (int a = 0;a < n;a++)
 	{
 		cout << basket[a] << " ";
