@@ -39,5 +39,14 @@
     <ClCompile Include="1152_number_of_word.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1152_number_of_word_final.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2908_constant_number.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5622_dial.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
