@@ -1,2 +1,2 @@
-﻿  2908_constant_number.cpp
-  baekjoon_step5_string.vcxproj -> C:\C++_study\baekjoon_step5_string\x64\Debug\baekjoon_step5_string.exe
+﻿  11718_print_as_is.cpp
+C:\C++_study\baekjoon_step5_string\baekjoon_step5_string\11718_print_as_is.cpp(9,3): error C3861: 'getline': 식별자를 찾을 수 없습니다.

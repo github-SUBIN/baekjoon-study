@@ -48,5 +48,8 @@
     <ClCompile Include="5622_dial.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11718_print_as_is.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
