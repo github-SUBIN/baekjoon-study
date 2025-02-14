@@ -1,3 +1,2 @@
-﻿  2941_croatia.cpp
-C:\C++_study\baekjoon_step6_deep\baekjoon_step6_deep\2941_croatia.cpp(8,11): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  1316_group_word_checker.cpp
   baekjoon_step6_deep.vcxproj -> C:\C++_study\baekjoon_step6_deep\x64\Debug\baekjoon_step6_deep.exe
